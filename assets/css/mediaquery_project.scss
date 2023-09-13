@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 100px;
+}
+.tryitfree{
+    text-align: center;
+    margin-top: 50px;
+    .getaccount{
+        color: #35414B;
+        width: fit-content;
+        border: 1px solid #F0EBFA;
+        background-color: #F0EBFA;
+        margin: auto;
+        line-height: 13px;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: inter;
+        padding: 5px 20px;
+        border-radius:10px ;
+    }
+    h1{
+        font-size: 36px;
+        font-weight: 600;
+        font-family: inter;
+        line-height: 40px;
+        color: #35414B;
+    }
+    .content{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: inter;
+        line-height: 24px;
+        color: #4E5A65;
+    }
+    form{
+        input{
+            width: 318px;
+            height: 52px;
+            top: 389px;
+            left: 48px;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            border: 1px solid #E1E5EA;
+            &::placeholder{
+                font-size: 16px;
+                line-height: 16px;
+                font-family: inter;
+                font-weight: 400;
+                color: #97A5B5;
+                text-align: center;
+            }
+        }
+        button{
+            width: 324px;
+            height: 52px;
+            top: 449px;
+            left: 48px;
+            border-radius: 4px;
+            border: 1px #794CFF;
+            background-color: #794CFF;
+            margin-top: 10px;
+
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            font-family: inter;
+            color: #FFFFFF;
+        }
+    }
+}
